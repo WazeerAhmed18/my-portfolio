@@ -1,0 +1,12 @@
+.mouse-circle {
+    position: fixed;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8); /* White with opacity */
+    border: 1px solid black; /* Simplified border properties */
+    pointer-events: none; /* Prevents interference with clicks */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-in-out; /* Smooth transition with a slight delay */
+    z-index: 1000; /* Ensure it's on top of everything */
+  }
