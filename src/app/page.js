@@ -5,7 +5,7 @@ import About from "@/Components/About";
 import AboutNew from "../Components/AboutNew";
 import Contact from "@/Components/Contact";
 import Footer from "../Components/Footer";
-import Projects from "../Components/Projects";
+import Projects from "@/Components/Projects";
 
 
 export default function Home() {

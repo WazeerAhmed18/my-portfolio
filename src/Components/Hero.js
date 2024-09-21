@@ -67,13 +67,13 @@ const Hero = () => {
       className='md:w-1/2 flex flex-col font-title lg:pl-24 pl-0'>
         <h1
           
-          className='w-full font-semibold text-white text-xl lg:text-4xl hover:text-gradient-to-r hover:from-transparent hover:to-white hover:text-[length:200%_100%] hover:text-left transition-all duration-500 ease-in-out'
+          className='w-full font-semibold text-white text-lg md:text-2xl lg:text-4xl hover:text-gradient-to-r hover:from-transparent hover:to-white hover:text-[length:200%_100%] hover:text-left transition-all duration-500 ease-in-out'
         >
           <span id="typewriter"></span>
           <br />
           <TextTransition
             
-            className=' py-3'
+            className='text-lg md:text-2xl lg:text-4xl py-3'
             springConfig={presets.wobbly}
             inline={true}
           >
