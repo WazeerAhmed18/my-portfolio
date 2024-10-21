@@ -47,7 +47,7 @@ const Contact = () => {
 
   return (
     <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
-      <div className="bg-black text-white py-16 px-8 md:px-32" id="Contact">
+      <div className="bg-black text-white py-16 px-8 " id="Contact">
         <animated.h2
           data-aos="fade-up"
           data-aos-duration="500"

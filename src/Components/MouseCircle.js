@@ -22,7 +22,7 @@ const MouseCircle = () => {
 
   return (
     <div
-      className="mouse-circle"
+      className="hidden md:block mouse-circle"
       style={{ left: `${position.x}px`, top: `${position.y}px` }}
     />
   );

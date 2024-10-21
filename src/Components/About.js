@@ -38,7 +38,7 @@ const About = () => {
 
   return (
     <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
-      <div id="skills-section" className="pb-16 bg-black text-center w-full">
+      <div id="skills-section" className="pb-16 px-8 bg-black text-center w-full">
         <div className="flex flex-col justify-center items-center">
           <div
             data-aos="fade-right"

@@ -31,7 +31,7 @@ const AboutNew = () => {
 
   return (
     <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
-      <section className="pt-16 pb-5 lg:pb-10 bg-black text-white">
+      <section className="pt-16 pb-5 px-8 lg:pb-10 bg-black text-white">
         <div id="skills-section" className="text-center w-full mb-10">
           <animated.h2
             data-aos="fade-left"
